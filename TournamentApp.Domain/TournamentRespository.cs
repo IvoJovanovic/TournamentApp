@@ -113,7 +113,7 @@ namespace TournamentApp.Domain
 
                 context.Matches.Add(new Match()
                 {
-                    Name = "Semifinale",
+                    Name = "Semifinal",
                     IsTournamentMatch = true,
                     Round = Round.Semifinal,
                     Teams = new List<Team>()

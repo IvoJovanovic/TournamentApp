@@ -50,7 +50,6 @@ namespace TournamentApp.Domain
                 {
                     Name = name,
                     LogoAnimalName = animalLogoName,
-                    LastTournamentWonDate = new DateTime(),
                     TournamentsWon = new List<Tournament>(),
                     Match = null,
                     Players = new List<Player>()
